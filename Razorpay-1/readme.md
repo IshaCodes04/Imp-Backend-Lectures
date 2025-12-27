@@ -17,4 +17,10 @@
 
 - create backend folder -> npm init -y
 - Start install all packages that we need -> npm i express , mongoose , dotenv
+- create src folder in backend -> create app.js file in it and create express server
+- create server.js file and start express server in it
+- create db folder and db.js file in it for connection of the mongo db from our express server
+- create .env file to add credentials
+- create models folder -> for start creating our product model or schema
+
 
