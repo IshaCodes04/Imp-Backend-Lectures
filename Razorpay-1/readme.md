@@ -13,5 +13,8 @@
 
 - i create whole frontend or backend for check how all these things going on behind the code
 
+*First we create our product in backend*
 
+- create backend folder -> npm init -y
+- Start install all packages that we need -> npm i express , mongoose , dotenv
 
