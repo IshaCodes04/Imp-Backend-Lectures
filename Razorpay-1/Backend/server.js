@@ -3,8 +3,7 @@ const app = require("./src/app");
 const ConnectToDB = require("./src/db/db");
 
 
-ConnectToDB();
-
+ConnectToDB();// db connected
 
 
 
