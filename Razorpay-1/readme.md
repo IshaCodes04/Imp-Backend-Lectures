@@ -8,3 +8,10 @@
 * For these all things we use razorpay
 
 - Now what is razorpay? - razorpay is a payment agreegiater also known as a payment gateway which gives a way for accept payyments and verifed them
+
+*Here we create a product and a user buy our product through razorpay (dummy payment)*
+
+- i create whole frontend or backend for check how all these things going on behind the code
+
+
+
