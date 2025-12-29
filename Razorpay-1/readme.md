@@ -23,6 +23,11 @@
 - create .env file to add credentials
 - create models folder -> for start creating our product model or schema
 - create controllers folder -> start creating controller for our product model
+- create routes folder -> start creating product routes -> create Router -> add createProduct api in router.post
+- create preffix for our product api
+- create getproduct controller and export it
+- create get api for fetch product in routes
 
 
+*Now we create frontend for fetch product*
 
