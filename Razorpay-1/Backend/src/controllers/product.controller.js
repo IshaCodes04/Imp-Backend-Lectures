@@ -7,7 +7,7 @@ async function createProduct(req, res) {
 
     try{
        const product = await productModel.create({ // product created
-          image, title, description, price: {amount , currecny}, category
+          image, title, description, price: {amount , currency}, category
        })
 
        return res.status(201).json({

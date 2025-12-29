@@ -22,5 +22,7 @@
 - create db folder and db.js file in it for connection of the mongo db from our express server
 - create .env file to add credentials
 - create models folder -> for start creating our product model or schema
+- create controllers folder -> start creating controller for our product model
+
 
 
