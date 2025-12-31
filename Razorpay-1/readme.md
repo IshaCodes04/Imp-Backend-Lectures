@@ -28,10 +28,11 @@
 - create getproduct controller and export it
 - create get api for fetch product in routes
 - install npm i cors
-- req cors in app.js -> and use cors 
+- req cors in app.js -> and use cors in app.js
 
 
 *Now we create frontend for fetch product*
 
 - Create frontend folder ->  npm create vite@latest
 - npm i -> install npm i axios
+- import axios, useState, useEffect and use it in app.jsx 
