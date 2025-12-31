@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+/* Bigger Card */
+.product-card {
+  width: 420px;               /* 🔥 card wider */
+  background: #fff;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.18);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Image Box – Full Image Show */
+.image-box {
+  width: 100%;
+  height: 320px;              /* 🔥 image area bigger */
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;        /* ✅ image cut nahi hogi */
+}
+
+/* Info */
+.product-info {
+  padding: 24px;
+}
+
+.category {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #888;
+  letter-spacing: 1px;
+}
+
+.title {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #111;
+}
+
+.description {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 18px;
+  line-height: 1.6;
+}
+
+/* Price */
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.price span {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Button */
+.buy-btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #000, #333);
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buy-btn:hover {
+  background: linear-gradient(135deg, #222, #000);
+  transform: scale(1.04);
+}
+
+/* Loading */
+.loading {
+  font-size: 18px;
+  color: #444;
+}
