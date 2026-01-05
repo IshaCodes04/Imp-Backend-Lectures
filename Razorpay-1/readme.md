@@ -78,6 +78,22 @@ if signature is valid, all details are valid backend update payment with details
                                  |
 Response status go on frontend which is Payment Success
                                  |
-But if signature is not valid , status in still on pending Status on frontend is Payment Failed                                 
-                                 |
+But if signature is not valid , status in still on pending Status, on frontend is Payment Failed                                 
+                                 
+
+*Now implement razorpay in backend*
+
+- npm install razorpay
+- npm install cors
+
+* go to razorpay and sign up now go to dashboard -> go to account & settings -> click on API Keys -> click on generate key -> copy test api key & test key secret and paste in .env file
+
+* Now we create webhooks -> webhook url ke liye ngrok use krenge 
+* login on ngrok run 2 commands jo starting m dii h and then run ngrok http 3000 in bash
+* then url copy krna h uske end m /api/webhook likh kr webhook url m paste kr dena h
+* secret copy krke .env m dalna h
+
+
+
+
                                  
